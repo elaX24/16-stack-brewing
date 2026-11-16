@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "bulkbrewing",
+	"version": "${version}",
+	"name": "Bulk Brewing",
+	"description": "Permite poner pilas de pociones (hasta 16) en cada hueco del alambique y prepararlas todas a la vez.",
+	"authors": ["eliasbs999"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.bulkbrewing.BulkBrewing"]
+	},
+	"mixins": ["bulkbrewing.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
